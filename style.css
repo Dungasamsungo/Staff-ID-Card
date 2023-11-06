@@ -12,7 +12,7 @@ body {
 .container {
     max-width: 400px;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 40px;
     padding: 20px;
     background-color: #699ef3;
     border-radius: 8px;
@@ -41,12 +41,12 @@ input[type="text"] {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-}
+} 
 
 /* Style the submit button if you add one */
-/*
-button[type="submit"] {
-    background-color: #4caf50;
+
+.btn{
+    background-color: #080808;
     color: white;
     border: none;
     border-radius: 4px;
@@ -54,7 +54,8 @@ button[type="submit"] {
     cursor: pointer;
 }
 
-button[type="submit"]:hover {
-    background-color: #45a049;
+.btn:hover{
+    
+    background-color: #273227;
 }
-*/
+
